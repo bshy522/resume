@@ -21,9 +21,9 @@ var Paragraph = module.exports = React.createClass({
         var classes = this.getClasses('paragraph');
 
         return (
-            <div>
+            <div className={classes}>
                 <h3>{title}</h3>
-                <Paper ref="container" className={classes} zDepth={0}>
+                <Paper className="container" ref="container" zDepth={0}>
                     {this.props.children}
                 </Paper>
             </div>
