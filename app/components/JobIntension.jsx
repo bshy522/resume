@@ -22,7 +22,7 @@ module.exports = React.createClass({
         var classes = this.getClasses('job-intension');
 
         return (
-            <Paragraph className={classes} title="工作经历">
+            <Paragraph className={classes} title="求职意向">
                 <div className="table">
                     <div>
                         <label>职务:</label>前端工程师/JS工程师
