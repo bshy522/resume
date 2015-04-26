@@ -1,12 +1,14 @@
 var gulp = require('gulp');
 var jade = require('gulp-jade');
 
+var config = require('../config').view;
+
 gulp.task('view', function() {
     var locals = {};
 
-    gulp.src('./app/views/*.jade')
+    return gulp.src(config.src)
         .pipe(jade({
             locals: locals
         }))
-        .pipe(gulp.dest('./public'));
+        .pipe(gulp.dest(config.dest));
 });

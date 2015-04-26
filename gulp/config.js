@@ -1,10 +1,17 @@
-var dest = './public/dist',
+var PUBLIC = './public',
+    dest = PUBLIC + '/dist',
     src = './app',
     mui = './node_modules/material-ui/src';
 
 module.exports = {
     dest: dest,
+    robot: {
+        public: PUBLIC,
+        out: PUBLIC + '/robots.txt'
+    },
     view: {
+        src: src + '/views/**.jade',
+        dest: PUBLIC,
         watch: [
             src + '/views/**'
         ]

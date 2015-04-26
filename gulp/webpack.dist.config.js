@@ -11,10 +11,10 @@ var lodash = require('lodash');
 
 var config = {
     cache: true,
-    watch: true,
+    watch: false,
     debug: false,
     keepalive: true,
-    devtool: 'source-map',
+    // devtool: 'source-map',
 
     stats: {
         colors: true,
