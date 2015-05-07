@@ -1,1 +1,1 @@
-http://bshy.me
+http://resume.bshy.me
