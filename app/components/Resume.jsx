@@ -56,12 +56,23 @@ var Resume = module.exports = React.createClass({
                 title: '云适配 APP 生成服务',
                 desc: '通过用户输入一个网址,使用 cordovajs 生成出简单的 APP 应用.期间采用了 koa 框架.采用了 ES6 的语法.'
             }]
+        }, {
+            componyName: '美团网-猫眼电影',
+            dateRange: '2015/5 - 2016/5',
+            summary: '前端工程师 负责供应链产品相关开发和项目管理，负责团队基础组件建设。参与线上故障应急处理，参与团队招聘工作。',
+            projects: []
+        }, {
+            componyName: 'QingCloud(北京优帆科技有限公司)',
+            dateRange: '2016/6 - 至今',
+            summary: '前端工程师',
+            projects: []
         }];
+                        
 
         var skills = [
             '了解 W3C 标准,熟悉 HTTP 协议、AJAX、ECMAScript、CommonJS',
             '熟练掌握 (x)HTML、CSS、JavaScript、Java/JSP、C#',
-            '熟练掌握 ExtJS、Dojo、JQuery、Twitter Bootstrap、Coffeescript、Less CSS、Underscore.js 、NodeJS、NPM、bower、MongoDB、Redis、Oracle、Nginx',
+            '熟练掌握 ReactJS、BabelJS、ExtJS、Dojo、JQuery、Twitter Bootstrap、Coffeescript、Less CSS、Underscore.js 、NodeJS、NPM、bower、MongoDB、Redis、Oracle、Nginx',
             '熟练使用 svn、git 等版本控制工具,熟练使用 Sublime text/Eclipse/MyEclipse/WebStorm/PlSql Developer/Toad/XManager 等工具',
             '熟练使用NodeJS各个活跃模块,1年NodeJS生产环境开发经验.',
             '熟练操作Linux,可在MacOS或类unix操作系统下进行工作'
