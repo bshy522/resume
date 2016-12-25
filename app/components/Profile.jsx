@@ -25,13 +25,13 @@ module.exports = React.createClass({
             <div className={classes}>
                 <h1 className="fullname">罗黎</h1>
                 <ul className="profile-detail">
-                    <li>男,90年生人,工作年限4年</li>
+                    <li>男,90年生人,工作年限6年</li>
                     <li>北京市海淀区五道口</li>
                     <li className="phone_home">152-1011-5311</li>
                     <li>bshy522@gmail.com</li>
                     <li><a href="http://bshy.me" taget="_blank">bshy.me</a></li>
                     <li><a href="http://github.com/bshy522" taget="_blank">github.com/bshy522</a></li>
-                </ul> 
+                </ul>
             </div>
         );
     }

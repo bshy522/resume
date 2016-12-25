@@ -31,10 +31,10 @@ module.exports = React.createClass({
                         <label>地区:</label>北京
                     </div>
                     <div>
-                        <label>期望待遇:</label>20K
+                        <label>期望待遇:</label>面议
                     </div>
                     <div>
-                        <label>到岗时间:</label>随时
+                        <label>到岗时间:</label>面议
                     </div>
                 </div>
             </Paragraph>
