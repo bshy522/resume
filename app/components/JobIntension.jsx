@@ -25,10 +25,10 @@ module.exports = React.createClass({
             <Paragraph className={classes} title="求职意向">
                 <div className="table">
                     <div>
-                        <label>职务:</label>前端工程师/JS工程师
+                        <label>职务:</label>全栈工程师/前端工程师
                     </div>
                     <div>
-                        <label>地区:</label>北京
+                        <label>地区:</label>成都、北京
                     </div>
                     <div>
                         <label>期望待遇:</label>面议
