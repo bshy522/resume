@@ -123,7 +123,7 @@ var Resume = module.exports = React.createClass({
             <div className={classes}>
                 <Profile/>
                 <JobIntension/>
-                <EmploymentHistory items={employmentHistory}/>
+                <EmploymentHistory items={employmentHistory.reverse()}/>
                 <TextList items={skills} title="职业技能" icon="mui-icon-arrow-drop-right"/>
                 <TextList items={edus} title="教育经历" icon="mui-icon-arrow-drop-right"/>
                 <TextList items={selfAssessment} title="自我评价" icon="mui-icon-arrow-drop-right"/>
