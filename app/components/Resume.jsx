@@ -84,8 +84,11 @@ var Resume = module.exports = React.createClass({
         }, {
             componyName: '蚂蚁金服-支付宝事业群',
             dateRange: '2017/4 - 至今',
-            summary: '高级前端工程师 支付宝端内 Hybrid 应用开发，业务组件开发等。蚂蚁森林/红包等运营活动开发',
+            summary: '高级前端工程师 支付宝端内 Hybrid 应用开发、业务组件开发、搭建平台开发和营销活动开发',
             projects: [{
+              title: "地网区域运营活动搭建平台",
+              desc: "",
+            }, {
                 title: "公益官网/公益机构后台/公益运营后台",
                 desc: "运营后台为 05 年的项目，并且从未进行技术重构，接手后在不影响业务开发的情况下将整个项目重构为 React 技术栈、前后端分离，改造为现代前端项目。建设公益类相关业务组件（项目详情、项目评价、介绍等）"
             }, {
@@ -99,24 +102,24 @@ var Resume = module.exports = React.createClass({
                         
 
         var skills = [
-            '了解 W3C 标准,熟悉 HTTP 协议、AJAX、ECMAScript、CommonJS',
+            '了解 W3C 标准,熟悉 HTTP 协议、AJAX、ECMAScript、CommonJS、TypeScript',
             '熟练掌握 (x)HTML、CSS、JavaScript、Java/JSP、C#',
-            '熟练掌握 ReactJS、BabelJS、ExtJS、Dojo、JQuery、Twitter Bootstrap、TypeScript、Less CSS、NodeJS、NPM、bower、MongoDB、Redis、Oracle、Nginx',
+            '熟练掌握 Eggjs ReactJS、Vue、BabelJS、ExtJS、Dojo、Less CSS、NodeJS、NPM、MongoDB、Redis、Oracle、Nginx 等Web架构技能',
             '熟练使用 SVN、GIT 等版本控制工具,熟练使用 Sublime text/Eclipse/MyEclipse/WebStorm/PlSql Developer/Toad/XManager 等工具',
-            '熟练使用NodeJS各个活跃模块,1年NodeJS生产环境开发经验.',
-            '熟练操作Linux,可在MacOS或类UNIX操作系统下进行工作'
+            '熟练操作Unix-like，具备基础运维的能力'
         ];
 
         var edus = [
             '新疆大学 - 计算机科学与技术',
             '清华大学<高级软件工程师>系列培训',
-            '信息产业部软件工程师资格认证,计算机等级考试二级'
+            '信息产业部软件工程师资格认证'
         ];
 
         var selfAssessment = [
-            '从初中开始接触简单的脚本。热爱计算机,对一切关于计算机的事物有浓厚兴趣,热 爱软件开发,自学能力强,关注业内前沿技术。',
+            '从初中开始接触简单的脚本编写。',
+            '自学能力强,关注业内前沿技术。',
             '良好的编程思维,对工作认真负责、积极主动。',
-            '热衷于参加各类线下社区活动。'
+            '具备较强的风险意识',
         ];
 
         return (
